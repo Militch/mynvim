@@ -1,6 +1,6 @@
 require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
-  use 'bluz71/vim-nightfly-guicolors'
+    use 'bluz71/vim-nightfly-guicolors'
 	use {
 		'kyazdani42/nvim-tree.lua',
 		config = function()
